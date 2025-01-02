@@ -142,7 +142,7 @@ const App = () => {
           }}
         >
           {" "}
-          Page {currentPage}{" "}
+          {currentPage}{" "}
         </button>
         <button
           onClick={handleNext}
