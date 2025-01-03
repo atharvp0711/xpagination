@@ -119,7 +119,6 @@ const App = () => {
       <div style={{ marginTop: "20px" }}>
         <button
           onClick={handlePrev}
-          disabled={currentPage === 1}
           style={{
             padding: "10px 20px",
             margin: "0 10px",
@@ -146,7 +145,6 @@ const App = () => {
         </button>
         <button
           onClick={handleNext}
-          disabled={currentPage === totalPages}
           style={{
             padding: "10px 20px",
             margin: "0 10px",
